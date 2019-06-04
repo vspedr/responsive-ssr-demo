@@ -1,1 +1,1 @@
-web: yarn start:prod
+web: CI=TRUE yarn build && yarn start:prod
